@@ -13,6 +13,7 @@ import uk.laurencegouws.devc.commands.RestartCommand;
 import uk.laurencegouws.devc.commands.StartCommand;
 import uk.laurencegouws.devc.commands.StatusCommand;
 import uk.laurencegouws.devc.commands.StopCommand;
+import uk.laurencegouws.devc.commands.CompletionCommand;
 
 @TopCommand
 @Command(
@@ -21,6 +22,7 @@ import uk.laurencegouws.devc.commands.StopCommand;
         version = "devc 1.0",
         description = "Devc is a CLI for managing containerized development environments.",
         subcommands = {
+            CompletionCommand.class,
             InitCommand.class,
             StartCommand.class,
             StopCommand.class,
