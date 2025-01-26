@@ -1,0 +1,2 @@
+# ~/.bashrc for General Service User
+export PATH="$PATH:/usr/local/bin"

@@ -1,0 +1,15 @@
+# ~/.bashrc for Rust Service User
+
+# Source Rust environment
+. "$HOME/.cargo/env"
+
+# Add Rust tools to PATH
+export PATH="$HOME/.cargo/bin:$PATH"
+
+# Useful aliases (if needed)
+alias ll='ls -alF'
+alias l='ls -CF'
+
+# Set a minimal, clean prompt
+PS1='\u@\h:\w\$ '
+
